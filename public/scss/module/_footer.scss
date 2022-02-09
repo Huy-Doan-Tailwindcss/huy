@@ -1,0 +1,22 @@
+footer {
+  h2 {
+    @apply text-white mb-8;
+  }
+  .slick-current {
+    & {
+      @apply bg-white;
+    }
+    h4,
+    .price {
+      @apply text-blue-main;
+    }
+    a {
+      @apply btn-footer;
+    }
+  }
+}
+.slide-item {
+  .user {
+    @apply mt-[10px] mb-[37px];
+  }
+}

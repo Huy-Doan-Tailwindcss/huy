@@ -1,0 +1,30 @@
+@layer base {
+  * {
+    @apply p-0 m-0 box-border;
+  }
+  body,
+  html {
+    @apply font-robo overflow-x-hidden text-[100%];
+  }
+  h1,
+  .h1 {
+    @apply text-2xl sm:text-h1-sm lg:text-h1 text-white font-bold;
+  }
+  h2,
+  .h2 {
+    @apply text-h2-sm lg:text-h2 text-blue-main font-bold;
+  }
+
+  h3,
+  .h3 {
+    @apply text-h3 text-blue-main font-bold;
+  }
+  p,
+  .p {
+    @apply text-p lg:text-p text-gray-secondary;
+  }
+
+  .link {
+    @apply hover:text-red-main hover:border-b hover:border-red-main md:hover:text-white transition-colors duration-200 ease-in md:hover:border-b md:hover:border-white;
+  }
+}

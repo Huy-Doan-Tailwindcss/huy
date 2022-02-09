@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  * {
+    @apply p-0 m-0 box-border;
+  }
+
+  body,
+html {
+    @apply font-robo overflow-x-hidden text-[100%];
+  }
+
+  h1,
+.h1 {
+    @apply text-2xl sm:text-h1-sm lg:text-h1 text-white font-bold;
+  }
+
+  h2,
+.h2 {
+    @apply text-h2-sm lg:text-h2 text-blue-main font-bold;
+  }
+
+  h3,
+.h3 {
+    @apply text-h3 text-blue-main font-bold;
+  }
+
+  p,
+.p {
+    @apply text-p lg:text-p text-gray-secondary;
+  }
+
+  .link {
+    @apply hover:text-red-main hover:border-b hover:border-red-main md:hover:text-white transition-colors duration-200 ease-in md:hover:border-b md:hover:border-white;
+  }
+}
+@layer base {
+  .btn {
+    @apply text-center inline-block select-none align-middle transition-all duration-300 ease-in-out rounded-btn cursor-pointer;
+  }
+
+  .btn-red {
+    @apply bg-red-main text-white border border-red-main hover:bg-white hover:border-white hover:text-red-main hover:font-bold;
+  }
+
+  .btn-white {
+    @apply bg-transparent  text-white border border-gray-secondary hover:bg-red-main hover:border-red-main;
+  }
+
+  .btn-menu {
+    @apply bg-transparent text-red-main hover:text-white border  hover:bg-red-main border-red-main;
+  }
+
+  .btn-footer {
+    @apply bg-red-main text-white hover:text-red-main hover:bg-white border-red-main;
+  }
+}
+@layer components {
+  .container {
+    @apply mx-auto max-w-full;
+  }
+}
+.banner h1 {
+  @apply mb-[10px];
+}
+.banner p {
+  @apply mb-[50px];
+}
+
+.main-features h2 {
+  @apply mb-8;
+}
+
+.col-content h3 {
+  @apply mt-7 mb-4;
+}
+
+.auto-content p {
+  @apply my-3;
+}
+
+footer h2 {
+  @apply text-white mb-8;
+}
+footer .slick-current {
+  @apply bg-white;
+}
+footer .slick-current h4,
+footer .slick-current .price {
+  @apply text-blue-main;
+}
+footer .slick-current a {
+  @apply btn-footer;
+}
+
+.slide-item .user {
+  @apply mt-[10px] mb-[37px];
+}
+
+/*# sourceMappingURL=app.css.map */

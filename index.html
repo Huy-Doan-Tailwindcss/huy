@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./public/slick-1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" href="./public/slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="./public/css/style.css" />
+  <title>Analyticst</title>
+</head>
+
+<body>
+  <div class="wrapper bg-gray-bg">
+    <!-- ------------------------header ---------------------------->
+    <header class="header relative py-7 bg-header bg-no-repeat bg-cover lg:min-h-[815px]">
+      <div class="container">
+        <div class="flex flex-row justify-between items-center">
+          <div class="header-logo w-auto">
+            <a href="#"><img src="./public/image/logo.png" alt="logo" /></a>
+          </div>
+          <nav
+            class="header-menu invisible md:visible fixed md:static pt-10 md:pt-0 top-0 left-0 z-10 md:z-0 bg-gray-bg bg-opacity-90 md:bg-transparent h-screen md:h-auto w-full md:w-[75%] flex flex-col justify-start md:flex-row md:justify-between md:items-center text-center text-red-main text-opacity-50 md:text-gray-secondary font-bold">
+            <ul class="menu flex flex-col  md:flex-row justify-around">
+              <li class="py-2 md:py-0 px-2 lg:px-5 link"><a href="#">Product</a></li>
+              <li class="py-2 md:py-0 px-2 lg:px-5 link"><a href="#">Pricing</a></li>
+              <li class="py-2 md:py-0 px-2 lg:px-5 link"><a href="#">FAQ</a></li>
+              <li class="py-2 md:py-0 px-2 lg:px-5 link"><a href="#">Blog</a></li>
+              <li class="py-2 md:py-0 px-2 lg:px-5 link"><a href="#">About us</a></li>
+            </ul>
+            <div class="action flex flex-col md:flex-row justify-between md:gap-4">
+              <button class="p-2 btn hover:font-bold hover:text-red-main"><a href="#">Sign in</a></button>
+              <button class="p-2 w-[120px] mx-auto btn btn-menu md:btn-white">
+                <a href="#">Sign up</a>
+              </button>
+            </div>
+          </nav>
+
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="menu-btn z-20 right-8 h-8 w-8 inline-block md:hidden text-white" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </div>
+
+        <div class="banner mt-[10%] relative">
+          <div
+            class="banner-title w-4/5 mx-auto md:mx-0 text-center md:text-left md:w-1/2 md:pr-[80px] lg:pr-0 xl:pr-[50px]">
+            <h1>Monitor your business on real-time dashboard</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+              nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam
+              vitae nibh nunc mattis imperdiet sed nullam.
+            </p>
+            <a href="#" class="w-1/2 max-w-[335px] py-[10px] btn btn-red text-base font-normal">Try for free</a>
+          </div>
+          <!-- <div class="banner-img relative">
+            <img class="block absolute  z-10" src="./public/image/main-screen-small.png" alt="main-screen-small" />
+            <img class="block absolute top-[50px] z-10" src="./public/image/chart-3.png" alt="chart-3" />
+          </div> -->
+
+        </div>
+
+      </div>
+
+    </header>
+
+
+
+    <!----------------------------- banner--------------------------- -->
+
+    <main class="main-content mt-[3%] container">
+      <div class="main-features text-center w-full md:w-[80%] mx-auto">
+        <h2>Main Features</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quia corrupti beatae non illo, qui,
+          necessitatibus unde dignissimos a cumque aliquam. Mollitia ab deserunt velit necessitatibus? Vero eius aliquam
+          saepe?</p>
+      </div>
+
+      <div class="threecol flex flex-col md:flex-row mt-16">
+        <div class="w-full md:w-1/3 flex flex-row md:flex-col justify-center items-center">
+          <img class="block w-[60px] mt-10 md:mt-0 md:mx-auto mr-11" src="./public/image/Icon-Plan.svg" alt="">
+          <div class="col-content text-left md:text-center">
+            <h3>Monitoring 24/7</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis
+              cing elit. Elementum nisi aliquet.</p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 flex flex-row md:flex-col justify-end">
+          <img class="block w-[60px] mt-10 md:mt-0 md:mx-auto mr-11" src=" ./public/image/Icon-Computer.svg" alt="">
+          <div class="col-content text-left md:text-center">
+            <h3>Monitoring 24/7</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis
+              cing elit. Elementum nisi aliquet.</p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 flex flex-row md:flex-col justify-end">
+          <img class="block w-[60px] mt-10 md:mt-0 md:mx-auto mr-11" src="./public/image/Icon-Speed.svg" alt="">
+          <div class="col-content text-left md:text-center">
+            <h3>Monitoring 24/7</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis
+              cing elit. Elementum nisi aliquet.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="automated flex flex-col md:flex-row flex-wrap justify-around items-center mt-40">
+        <div class="auto-content w-full md:w-1/2 max-w-[480px]">
+          <h2>Automated Reports & Widget Alerts</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque
+            volutpat est.
+            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit
+            amet.</p>
+        </div>
+        <div class="auto-img w-full md:w-1/2">
+          <img src="./public/image/screen-01.png" alt="">
+        </div>
+      </div>
+
+      <div class="fully flex flex-col md:flex-row flex-wrap justify-around items-center mt-20">
+        <div class="auto-img w-full md:w-1/2 order-2 md:order-1">
+          <img src="./public/image/screen-02.png" alt="">
+        </div>
+        <div class="auto-content w-full md:w-1/2 max-w-[480px] order-1 md:order-2">
+          <h2>Fully customizable to address your needs</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque
+            volutpat est.
+            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit
+            amet.</p>
+        </div>
+      </div>
+
+      <div class="pre-built flex flex-col md:flex-row flex-wrap justify-around items-center mt-20">
+        <div class="auto-content w-full max-w-[480px] md:w-1/2 ">
+          <h2>Pre-built Dashboard Templates</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque
+            volutpat est.
+            Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit
+            amet.</p>
+        </div>
+        <div class="auto-img w-full md:w-1/2">
+          <img src="./public/image/screen-03.png" alt="">
+        </div>
+      </div>
+
+    </main>
+
+    <!-- --------------------------footer--------------------------- -->
+    <footer class="bg-footer bg-no-repeat bg-cover text-gray-secondary">
+      <div class="container pt-[272px] pb-10">
+        <div class="footer-content  text-center w-full md:w-1/2 mx-auto">
+          <h2>Pricing Plans</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet
+            volutpat pellentesque volutpat est.</p>
+        </div>
+
+        <div class="price-package footerSlider mt-20">
+          <div
+            class="slide-item mt-5 md:mt-0 mx-6 rounded-card bg-blue-main shadow-card flex flex-col text-center px-5 py-[50px]">
+            <h4 class="text-h2-sm text-white font-bold">Starter</h4>
+            <p class="user">up to 3 users</p>
+            <div class="line h-[1px] w-4/5 bg-gray-secondary mx-auto"></div>
+            <div class="price text-white mt-7 font-bold">$<span class="text-[60px]">29</span></div>
+            <p>per month</p>
+            <a class="w-2/3 btn btn-white hover:btn-red mx-auto mt-10 py-3" href="#">Order</a>
+          </div>
+          <div
+            class="slide-item mt-5 md:mt-0 mx-6  rounded-card bg-blue-main shadow-card flex flex-col text-center px-5 py-[50px]">
+            <h4 class="text-h2-sm text-white  font-bold">Standard</h4>
+            <p class="user">up to 20 users</p>
+            <div class="line h-[1px] w-4/5 bg-gray-secondary mx-auto"></div>
+            <div class="price text-white  mt-7 font-bold">$<span class="text-[60px]">99</span></div>
+            <p>per month</p>
+            <a class="w-2/3 btn btn-white hover:btn-red mx-auto mt-10 py-3" href="#">Order</a>
+          </div>
+          <div
+            class="slide-item mt-5 md:mt-0 mx-6  rounded-card bg-blue-main shadow-card flex flex-col text-center px-5 py-[50px]">
+            <h4 class="text-h2-sm text-white font-bold">Premium</h4>
+            <p class="user">up to 200 users</p>
+            <div class="line h-[1px] w-4/5 bg-gray-secondary mx-auto"></div>
+            <div class="price text-white mt-7 font-bold">$<span class="text-[60px]">299</span></div>
+            <p>per month</p>
+            <a class="w-2/3 btn btn-white hover:btn-red mx-auto mt-10 py-3" href="#">Order</a>
+          </div>
+        </div>
+
+        <div class="w-full h-[1px] bg-gray-secondary mt-24 mb-16"></div>
+
+        <div class="menu-footer flex flex-row justify-between items-center">
+
+          <a href="#"><img class="block w-[138px]" src="./public/image/footer-logo.png" alt="logo-footer"></a>
+          <ul class="md:flex flex-row justify-between hidden">
+            <li class="px-5"><a href="#">Product</a></li>
+            <li class="px-5"><a href="#">PricePlan</a></li>
+            <li class="px-5"><a href="#">FAQ</a></li>
+            <li class="px-5"><a href="#">Blog</a></li>
+          </ul>
+          <ul class="flex flex-row">
+            <li class="px-5"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="px-5"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="px-5"><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./public/js/menu.js"></script>
+<script src="./public/js/sliderfooter.js"></script>
+<script src="https://kit.fontawesome.com/76ce91c90c.js" crossorigin="anonymous"></script>
+<script src="./public/slick-1.8.1/slick/slick.min.js"></script>
+
+</html>

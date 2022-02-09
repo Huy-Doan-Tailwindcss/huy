@@ -1,0 +1,27 @@
+{
+  "name": "huy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss --postcss -i ./public/css/app.css -o ./public/css/style.css",
+    "watch": "npx tailwindcss --postcss -i ./public/css/app.css -o ./public/css/style.css --watch",
+    "scss": "sass --watch ./public/scss/app.scss:./public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huy-Doan-Tailwindcss/huy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huy-Doan-Tailwindcss/huy/issues"
+  },
+  "homepage": "https://github.com/Huy-Doan-Tailwindcss/huy#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  }
+}
